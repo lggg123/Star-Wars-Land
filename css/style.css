@@ -1,0 +1,81 @@
+/* Styles for the Star Wars Land Resort */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topHeader { 
+    background-color: #3d3d3d;
+    background: url(../img/vader.jpg);
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: "Pontano Sans" , sans-serif;
+    text-align: center;
+    background-color: #151515;
+    color: #edf6ff;
+}
+h1 {
+    font-size: 120px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+#yellow {
+    color:#eae744;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+.navMenu { 
+    list-style: none;
+    padding: 30px;
+    text-transform: lowercase;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.navMenu li {
+    display: inline-block;
+}
+
+.navMenu a { 
+    text-decoration: none;
+    padding: 10px;
+    color: #edf6ff;
+}
+
+.mainSection {
+    padding: 50px;
+}
+
+#blurb {
+    width: 50%;
+    margin: auto;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #3d3d3d;
+}
+
+footer p {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #3d3d3d; 
+}
